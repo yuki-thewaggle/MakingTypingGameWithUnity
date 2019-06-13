@@ -1,5 +1,4 @@
----?color=#F79F79
-
+---?color=#3A8FB7
 ## MakingTypingGameWithUnity
 
 
