@@ -5,7 +5,8 @@
 ---?image=assets/img/ImportPackage0.png&size=auto 60%&position=bottom
 
 ### アセットを選択する(1)
-**Assets** > <b>ImportPackage</b> > <b>CustomPackage...</b> をクリックしてください
+1. 画面上部のメニューから **Assets** をクリック
+2. **Assets** > **ImportPackage** > **CustomPackage...** をクリック
 
 ---
 @title[アセットを選択する2]
