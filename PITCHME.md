@@ -1,8 +1,6 @@
 ---?color=#3A8FB7
 
-@snap[headline]
-# Unityを使って<br>タイピングゲームを<br>作ってみよう
-@snapend
+### Unityを使って<br>タイピングゲームを<br>作ってみよう
 
 
 ---
