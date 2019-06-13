@@ -2,60 +2,37 @@
 ## Unityを使って<br>タイピングゲームを<br>作ってみよう
 
 
----?image=assets/img/ImportPackage0.png&size=auto 60%&position=bottom
+---
 
-### アセットを選択する(1)
+### アセットを選択する
 1. 画面上部のメニューから **Assets** をクリック
 2. **Assets** > **ImportPackage** > **CustomPackage...** をクリック
+3. **デスクトップ** > **TheWaggleTypingGame.unitypackage** を選択
+4. **開く** をクリック
 
 ---
-@title[アセットを選択する2]
 
-@snap[north-west]
-<h2>@size[0.7em](アセットを選択する2)</h2>
-
-<p>
-<b>TheWaggleTypingGame.unitypackage</b> を選択して
-![選択するアセット](assets/img/ImportPackage.PNG)
-</p>
-<p>
-<b>開く</b> ボタンをクリックしてください
-![開くボタン](assets/img/ImportPackage2.PNG)
-</p>
-@snapend
-
----?image=assets/img/ImportPackage3.png&size=auto 70%&position=bottom
-@title[アセットをインポートする]
-
-@snap[north-west]
-<h2>@size[0.7em](アセットをインポートする)</h2>
-そのまま<b>Import</b>ボタンをクリックしてください
-@snapend
-
----?image=assets/img/ImportedAssets.PNG&size=auto 60%&position=bottom
-@title[インポートされたことを確認する]
-
-@snap[north-west]
-<h2>@size[0.7em](インポートされたことを確認する)</h2>
-<i>Project</i> ウィンドウの <i>Assets</i> の中から<br>
-これらのファイルが見えることを確認してください
-@snapend
-
----?image=assets/img/NewScene.png&size=auto 60%&position=bottom
-@title[新規シーンを作成する]
-
-@snap[north-west]
-<h2>@size[0.7em](新規シーンを作成する)</h2>
-<b>File</b> > <b>New Scene</b> をクリックして<br>
-新規シーンを作成してください
-@snapend
+### アセットをインポートする
+1. 出てきたウィンドウにある **Import** をクリック
 
 ---
-@title[シーンとは]
 
-<h2>@size[0.7em](シーンとは)</h2>
+### インポートされたことを確認する
 
-シーンとは、映画の1シーンの撮影セットのようなもの
+1. **Project** ウィンドウの中に表示が増えたことを確認
+
+---
+
+### 新規シーンを作成する
+
+1. 画面上部のメニューから **File** をクリック
+2. **File** > **New Scene** をクリック
+
+---?color=#3A8FB7
+
+### シーンとは
+
+シーンは映画の1シーンの撮影セットのようなもの
 
 舞台があって
 その上にキャラクターや物があって
