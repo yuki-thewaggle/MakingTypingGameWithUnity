@@ -1,4 +1,6 @@
-# MakingTypingGameWithUnity
+---?color=#F79F79
+
+## MakingTypingGameWithUnity
 
 
 ---?image=assets/img/ImportPackage0.png&size=auto 60%&position=bottom
