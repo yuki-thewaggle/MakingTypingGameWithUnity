@@ -1,14 +1,11 @@
 ---?color=#3A8FB7
-## MakingTypingGameWithUnity
+## Unityを使って<br>タイピングゲームを<br>作ってみよう
 
 
 ---?image=assets/img/ImportPackage0.png&size=auto 60%&position=bottom
-@title[アセットを選択する1]
 
-@snap[north-west]
-<h2>@size[0.7em](アセットを選択する1)</h2>
+### アセットを選択する(1)
 <b>Assets</b> > <b>ImportPackage</b> > <b>CustomPackage...</b> をクリックしてください
-@snapend
 
 ---
 @title[アセットを選択する2]
