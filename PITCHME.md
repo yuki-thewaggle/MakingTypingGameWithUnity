@@ -38,10 +38,10 @@
 @snap[font-color-white]
 シーンは映画の1シーンのようなもの<br>
 
-シーンには <b>舞台</b> があって<br>
-その上に **キャラクターや物** があって<br>
-それを **ライト** が照らし<br>
-**カメラ**が映し出します<br>
+シーンには <b class="font-color-white">舞台</b> があって<br>
+その上に <b class="font-color-white">キャラクターや物</b> があって<br>
+それを <b class="font-color-white">ライト</b> が照らし<br>
+<b class="font-color-white">カメラ</b> が映し出します<br>
 @snapend
 
 ---
