@@ -36,7 +36,7 @@
 ### シーンとは
 
 シーンは映画の1シーンのようなもの<br>
-
+<br>
 シーンには @css[font-color-white](舞台) があって<br>
 その上に @css[font-color-white](キャラクターや物) があって<br>
 それを @css[font-color-white](ライト) が照らし<br>
@@ -56,11 +56,11 @@
 
 ### シーンが作成されたことを確認する
 
-1. **Hierarchy** > **Unityマークの隣** > **Main** と表示されていることを確認
+1. **Hierarchy** > **Unityマーク** の隣 > **Main** と表示されていることを確認
 
 ---
 
-### プレハブをインスタンス化する
+### プレハブを実態化する
 
 1. **Assets** > **＿Prefabs** にある以下のものを **Hierarchy** にドラッグ&ドロップ
   - BackgroundMusic
@@ -69,54 +69,38 @@
   - HUDCanvas
   - MainCamera
   - MiniMapCamera
-  - >Player
+  - Player
 
 ---?color=#3A8FB7
 
-### プレハブとインスタンス化
+### プレハブ
 
-<h2>@size[0.7em](プレハブとインスタンス化)</h2>
-<p>
-  プレハブとは、アセットの中でも<br>
-  <b>部品化するだけでそのまま動き出す</b>ものです
-</p>
-<p>
-  <i>Project</i> ウィンドウから <i>Hierarchy</i> ウィンドウに<br>
-  ドラッグ&ドロップすることで<br>
-  実際のオブジェクトになります
-</p>
-<p>
-  この動作を<b>インスタンス化</b>といい<br>
-  実体化されたオブジェクトを<b>インスタンス</b>といいます
-</p>
+プレハブとは @css[font-color-white](部品化するだけでそのまま動き出す) もののこと
+<br>
+@css[font-color-white](Project) ウィンドウから @css[font-color-white](Hierarchy) ウィンドウに
+@css[font-color-white](ドラッグ&ドロップ) すると作られる
 
 ---
-@title[キー入力の設定]
 
-<h2>@size[0.7em](キー入力の設定)</h2>
-どのキー入力を何の処理として受け付けるかという設定
+### キー入力の設定
 
-今回は、デフォルト設定の入力処理が
-文字のタイピングと重複しないように消します
+1. **Edit** > **ProjectSettings** > **Input** をクリック
+2. **Axis**  > **Vertical** > **Horizontal** から **a** , **d** を消去
+3. **Axis**  > **Vertical** > **Vercal** から **s** , **w** を消去
 
-  - **Edit** > **ProjectSettings** > **Input** をクリック
-    - **Axis**  > **Vertical** > **Horizontal** から **a** , **d** を消去
-    - **Axis**  > **Vertical** > **Vercal** から **s** , **w** を消去
+（a,d,s,w キーの入力で上下左右に移動しないように設定を削除する）
 
 ---
-@title[スカイボックスの設定]
 
-@snap[north-west]
-<h2>@size[0.7em](スカイボックスの設定)</h2>
-@snapend
+### スカイボックスの設定
 
-  - **Window** > **Rendering** > **Lighting Settings** をクリック
-    - **Skybox Material** のサークルセレクトをクリック
-    - **NightmaresProceduralSkybox** をダブルクリック
+1. **Window** > **Rendering** > **Lighting Settings** をクリック
+2. **Skybox Material** のサークルセレクト（小さいドーナツ）をクリック
+3. **NightmaresProceduralSkybox** をダブルクリック
 
 ---
-@title[レイヤーの設定]
-<h2>@size[0.7em](レイヤーの設定)</h2>
+
+### レイヤーの設定
 レイヤーとはゲームオブジェクトのグループ分けをするもの
 
 今回は、マウスの位置を取得するためのオブジェクトを
