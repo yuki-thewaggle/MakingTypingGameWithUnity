@@ -35,13 +35,12 @@
 
 ### シーンとは
 
-@snap[font-color-white]
 シーンは映画の1シーンのようなもの<br>
 
-シーンには <b class="font-color-white">舞台</b> があって<br>
-その上に <b class="font-color-white">キャラクターや物</b> があって<br>
-それを <b class="font-color-white">ライト</b> が照らし<br>
-<b class="font-color-white">カメラ</b> が映し出します<br>
+シーンには @css[font-color-white](舞台) があって<br>
+その上に @css[font-color-white](キャラクターや物) があって<br>
+それを @css[font-color-white](ライト) が照らし<br>
+@css[font-color-white](カメラ) が映し出します<br>
 @snapend
 
 ---
