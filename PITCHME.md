@@ -4,6 +4,9 @@
 # Unityを使って<br>タイピングゲームを<br>作ってみよう
 @snapend
 
+---
+
+### まずはプレイ
 
 ---
 
@@ -75,9 +78,9 @@
 
 ### プレハブ
 
-プレハブとは @css[font-color-white](部品化するだけでそのまま動き出す) もののこと
+プレハブとは @css[font-color-white](部品化するだけでそのまま動き出す) もののこと<br>
 <br>
-@css[font-color-white](Project) ウィンドウから @css[font-color-white](Hierarchy) ウィンドウに
+@css[font-color-white](Project) ウィンドウから @css[font-color-white](Hierarchy) ウィンドウに<br>
 @css[font-color-white](ドラッグ&ドロップ) すると作られる
 
 ---
@@ -88,28 +91,28 @@
 2. **Axis**  > **Vertical** > **Horizontal** から **a** , **d** を消去
 3. **Axis**  > **Vertical** > **Vercal** から **s** , **w** を消去
 
-（a,d,s,w キーの入力で上下左右に移動しないように設定を削除する）
+（a,d,s,w キーの入力で上下左右に移動しないように<br>
+デフォルト設定を削除する）
 
 ---
 
 ### スカイボックスの設定
 
 1. **Window** > **Rendering** > **Lighting Settings** をクリック
-2. **Skybox Material** のサークルセレクト（小さいドーナツ）をクリック
+2. **Skybox Material** の **サークルセレクト**（小さいドーナツ）をクリック
 3. **NightmaresProceduralSkybox** をダブルクリック
 
 ---
 
 ### レイヤーの設定
-レイヤーとはゲームオブジェクトのグループ分けをするもの
 
-今回は、マウスの位置を取得するためのオブジェクトを
-レイヤーを利用して設定します
-
-  - **Inspector** > **Layer** > **Add Layer** をクリック
-    - 空いている一番上の欄に **Floor** と記入
-    - **Hierarchy** > **Floor** > **MousePointingFloor** をクリック
-    - レイヤーを **Floor** に設定
+1. **Inspector** > **Layer** > **Add Layer** をクリック
+2. 空いている一番上の欄に **Floor** と記入
+3. **Hierarchy** > **Floor** > **MousePointingFloor** をクリック
+4. レイヤーを **Floor** に設定
+    
+（レイヤーとはゲームオブジェクトのグループ分けをするもの）<br>
+（今回はマウスの位置を取得するために利用）
 
 ---
 @title[ナビメッシュの設定]
