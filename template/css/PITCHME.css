@@ -12,7 +12,6 @@
 * :not(.fa):not(strong):not(a):not(h1):not(h2):not(h3) {
   color: rgb(80,80,80);
   overflow-wrap: break-word;
-  font-size:2em;
 }
 
 /* Select */
