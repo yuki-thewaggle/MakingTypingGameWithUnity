@@ -35,7 +35,9 @@
 
 ### シーンとは
 
-シーンは映画の1シーンの撮影セットのようなもの
+
+@snap[font-color-white]
+シーンは映画の1シーンのようなもの
 
 舞台があって
 その上にキャラクターや物があって
@@ -47,6 +49,7 @@
 
 シーン上にあるカメラから映し出された映像が
 ゲームの1シーンになります
+@snapend
 
 ---?image=assets/img/SaveScene.png&size=auto 60%&position=bottom
 @title[シーンを保存する]
