@@ -30,7 +30,7 @@
 ### アセットを選択する
 1. 画面上部のメニューから **Assets** をクリック
 2. **Assets** > **ImportPackage** > **CustomPackage...** をクリック
-3. **デスクトップ** > **TheWaggleTypingGame.unitypackage** を選択
+3. **デスクトップ** > **TypingGame.unitypackage** を選択
 4. **開く** をクリック
 
 ---
@@ -49,6 +49,17 @@
 ### 見本のシーンを展開する
 
 1. **Assets** > **＿MyScene** ＞　**Unityマーク** の **MySceneTest** をダブルクリック
+
+---
+
+### キー入力を設定する
+
+1. **Edit** > **ProjectSettings** > **Input** をクリック
+2. **Axis**  > **Vertical** > **Horizontal** から **a** , **d** を消去
+3. **Axis**  > **Vertical** > **Vercal** から **s** , **w** を消去
+
+（a,d,s,w キーの入力で上下左右に移動しないように<br>
+デフォルト設定を削除する）
 
 ---
 
@@ -102,7 +113,7 @@
 
 ---
 
-### シーンが作成されたことを確認する
+### 保存されたことを確認する
 
 1. **Hierarchy** > **Unityマーク** の隣 > **Main** と表示されていることを確認
 
@@ -121,7 +132,7 @@
 
 ---?color=#3A8FB7
 
-### プレハブ
+### プレハブとは
 
 プレハブとは @css[font-color-white](部品化するだけでそのまま動き出す) もののこと<br>
 <br>
@@ -130,18 +141,7 @@
 
 ---
 
-### キー入力の設定
-
-1. **Edit** > **ProjectSettings** > **Input** をクリック
-2. **Axis**  > **Vertical** > **Horizontal** から **a** , **d** を消去
-3. **Axis**  > **Vertical** > **Vercal** から **s** , **w** を消去
-
-（a,d,s,w キーの入力で上下左右に移動しないように<br>
-デフォルト設定を削除する）
-
----
-
-### スカイボックスの設定
+### スカイボックスを設定する
 
 1. **Window** > **Rendering** > **Lighting Settings** をクリック
 2. **Skybox Material** の **サークルセレクト**（小さいドーナツ）をクリック
@@ -149,7 +149,7 @@
 
 ---
 
-### レイヤーの設定
+### レイヤーを設定する
 
 1. **Inspector** > **Layer** > **Add Layer** をクリック
 2. 空いている一番上の欄に **Floor** と記入
@@ -160,73 +160,73 @@
 （今回はマウスの位置を取得するために利用）
 
 ---
-@title[ナビメッシュの設定]
 
-<h2>@size[0.7em](ナビメッシュの設定)</h2>
-ナビメッシュとはゲームオブジェクトが動く経路を
-自動探索させるために設定する可動範囲のこと
+### ナビメッシュを設定する
 
-  - **Hierarchy** > **Floor** > **NavMeshWalkableFloor** をクリック
-    - **MeshRenderer** のチェックボックスを **チェックがついた状態** にする
-  <!--  - **AddComponent** をクリックして **MeshRenderer** を選択-->
-    - **Window** > **AI** > **Navigation** をクリック
-    - **Bake** タブにある **Bake** ボタンをクリックする
-    - **MeshRenderer** のチェックボックスを **チェックが外れた状態** にする
+1. **Hierarchy** > **Floor** > **NavMeshWalkableFloor** をクリック
+2. **MeshRenderer** のチェックボックスを **チェックがついた状態** にする
+3. **Window** > **AI** > **Navigation** をクリック
+4. **Bake** タブにある **Bake** ボタンをクリックする
+5. **MeshRenderer** のチェックボックスを **チェックが外れた状態** にする
 
----
-@title[MainCameraとDirectionalLightの削除]
-
-<h2>@size[0.7em](MainCameraとDirectionalLightの削除)</h2>
-
-シーンを新規作成したときに
-デフォルトで生成されていたカメラとライトを
-右クリックして **Delete** する
-
-  - **Hierarchy** > **MainCamera** を削除
-  - **Hierarchy** > **DirectionalLight** を削除
+（ナビメッシュとは、ゲームオブジェクトが動く経路を<br>
+自動探索させるために設定する可動範囲のこと）
 
 ---
-@title[シーンをリロードできるように設定]
 
-<h2>@size[0.7em](シーンをリロードできるように設定)</h2>
-ゲームオーバーになったときに
-シーンがリロードされるように設定する
+### MainCameraとDirectionalLightの削除
 
-  - **File** > **Build Settings** をクリックする
-    - **Add Open Scenes** をクリックする
+1. **Hierarchy** > **MainCamera** を右クリック > **Delete**をクリック
+2. **Hierarchy** > **DirectionalLight** を右クリック > **Delete**をクリック
+
+（自動生成されたデフォルトのカメラとライトは<br>
+必要ないので削除する）
 
 ---
-@title[動きを確かめる]
 
-<h2>@size[0.7em](動きを確かめる)</h2>
+### シーンをリロードできるように設定
 
-1. **Game** > **Maximize On Play** をクリックする
-1. 動きを確かめる
+1. **File** > **Build Settings** をクリック
+2. **Add Open Scenes** をクリック
+
+（ゲームオーバーになったときに<br>
+シーンがリロードされるように設定する）
+
+---
+
+### 動きを確かめる
+
+1. **Game** > **Maximize On Play** をクリック
+2. 画面の **上部中央** にある **再生ボタン** をクリック
+3. プレイして動きを確認
 
   - @size[0.7em](矢印キーの押された方向にプレーヤーが動く)
   - @size[0.7em](マウスのある方向にプレーヤーが向く)
   - @size[0.7em](正しくキー入力をするとエネミーの問題文が赤文字に代わる)
   - @size[0.7em](エネミーの問題文をすべて入力するとエネミーが死ぬ)
   - @size[0.7em](エネミーはプレーヤーを自動で追いかけ続ける)
-<!--  - @size[0.7em](プレーヤーもエネミーも障害物を避けて進む)-->
   - @size[0.7em](プレーヤーのHPが0になるとゲームオーバーになり リスタートする)
 
 ---
-@title[問題なければ最後に]
 
-<h2>@size[0.7em](問題なければ最後に)</h2>
+### 問題なければ最後に
 
-1. **Project** > **Assets** > **＿Prefabs** > **Lights** をインスタンス化
-1. **Project** > **Assets** > **＿Prefabs** > **Environment** をインスタンス化
+1. **Project** > **Assets** > **＿Prefabs** > **Lights** を実態化
+2. **Project** > **Assets** > **＿Prefabs** > **Environment** を実態化
 
 <!--1. **Window** > **Rendering** > **Lighting Settings**をクリックする-->
 <!--  - **Auto Generating** をクリックしてチェックを外す-->
 <!--  - **Generate Lighting** をクリックする-->
 
----
-@title[トライしてみよう]
+---?color=#3A8FB7
 
-<h2>トライしてみよう</h2>
+@snap[headline]
+# ゲームを改造してみよう
+@snapend
+
+---
+
+
 
 ---
 @title[エネミーの問題文を変えるには]
