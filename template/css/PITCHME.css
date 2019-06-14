@@ -46,6 +46,10 @@
   background-color: #3A8FB7 !important;
 }
 
+.font-color-white {
+  font-color: white;
+}
+
 /* Font */
 strong {
   font-weight: normal !important;
