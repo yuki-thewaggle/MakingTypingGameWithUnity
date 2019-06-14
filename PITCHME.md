@@ -35,70 +35,46 @@
 
 ### シーンとは
 
-
 @snap[font-color-white]
-シーンは映画の1シーンのようなもの
+シーンは映画の1シーンのようなもの<br>
 
-舞台があって
-その上にキャラクターや物があって
-それをライトが照らし
-カメラが映し出します
-
-これら全てを
-創ったり配置したりするのがシーンです
-
-シーン上にあるカメラから映し出された映像が
-ゲームの1シーンになります
-@snapend
-
----?image=assets/img/SaveScene.png&size=auto 60%&position=bottom
-@title[シーンを保存する]
-
-@snap[north-west]
-<h2>@size[0.7em](シーンを保存する)</h2>
-<b>File</b> > <b>Save Scene</b> をクリックしてください<br>
-シーンに名前をつけて保存します
-@snapend
-
----?image=assets/img/SaveScene2.PNG&size=60% auto
-@title[シーン名を入力する]
-
-@snap[north-west]
-<h2>@size[0.7em](シーン名を入力する)</h2>
-<b>ファイル名</b>に <b>Main</b> と入力して<br>
-<b>保存</b> ボタンをクリックしてください
-@snapend
-
----?image=assets/img/CreatedMain.PNG&size=auto 70%&position=bottom
-@title[シーンが作成されたことを確認する]
-
-@snap[north-west]
-<h2>@size[0.7em](シーンが作成されたことを確認する)</h2>
-このように <b>Main</b> と表示されれば保存成功です
+シーンには **舞台** があって<br>
+その上に **キャラクターや物** があって<br>
+それを **ライト** が照らし<br>
+**カメラ**が映し出します<br>
 @snapend
 
 ---
-@title[プレハブをインスタンス化する]
 
-@snap[north-west]
-<h2>@size[0.7em](プレハブをインスタンス化する)</h2>
-<p>
-  <b>Assets</b> > <b>＿Prefabs</b> にある以下のものを<br>
-  <b>Hierarchy</b>にドラッグ&ドロップしてください
-</p>
-<ul>
-  <li>BackgroundMusic</li>
-  <li>Floor</li>
-  <li>GameManager</li>
-  <li>HUDCanvas</li>
-  <li>MainCamera</li>
-  <li>MiniMapCamera</li>
-  <li>Player</li>
-</ul>
-@snapend
+### シーンを保存する
+
+1. **File** > **Save Scene** をクリック
+2. **Scenes** をダブルクリック
+3. **ファイル名** に **Main** と入力
+4. **Save** をクリック
 
 ---
-@title[プレハブとインスタンス化]
+
+### シーンが作成されたことを確認する
+
+1. **Hierarchy** > **Unityマークの隣** > **Main** と表示されていることを確認
+
+---
+
+### プレハブをインスタンス化する
+
+1. **Assets** > **＿Prefabs** にある以下のものを **Hierarchy** にドラッグ&ドロップ
+  - BackgroundMusic
+  - Floor
+  - GameManager
+  - HUDCanvas
+  - MainCamera
+  - MiniMapCamera
+  - >Player
+
+---?color=#3A8FB7
+
+### プレハブとインスタンス化
 
 <h2>@size[0.7em](プレハブとインスタンス化)</h2>
 <p>
