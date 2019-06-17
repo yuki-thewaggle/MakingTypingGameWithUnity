@@ -226,74 +226,47 @@
 
 ---
 
-
-
----
-@title[エネミーの問題文を変えるには]
-
-<h2>@size[0.7em](エネミーの問題文を変えるには)</h2>
-
-1. **Project** > **Assets** > **＿Resources** をクリックする
-  - **TypingText** をダブルクリックする
-  - 一行に一単語を入力する
-    ※半角英字（小文字）だけを使う設定になっています
-  - 保存する
-1. **Project** > **Assets** > **＿Resources** をクリックする
-  - **Inspector** で新しいデータに書き換わっていることを確認する
-
-これでエネミーの問題文が新しいデータに変わります
-
----
-@title[プレーヤーHPの設定]
-
-<h2>@size[0.7em](プレーヤーのHP設定)</h2>
-
-プレーヤーのHPを変える
+### プレーヤーの動くスピードを変える
 
 1. **Hierarchy** > **Player** をクリック
-  - **Inspector** > **Player Health Controller** > **Starting Health** の値を変更する
-1. **Hierarchy** > **HUDCanvas** > **HealthUI** > **HealthSlider** をクリック
-  - **Slider** > **MaxValue** を変更した値に変える
-  - **Slider** > **Value** を最大値に変える
+2. **Inspector** > **Player Movement Controller** > **Speed** の値を変更
 
 ---
-@title[プレーヤーのスピード設定]
 
-<h2>@size[0.7em](プレーヤーのスピード設定)</h2>
-
-プレーヤーの動くスピードを変える
-
-1. **Hierarchy** > **Player** をクリック
-1. **Inspector** > **Player Movement Controller** > **Speed** の値を変更する
-
----
-@title[エネミーのスピード設定]
-
-<h2>@size[0.7em](エネミーのスピード設定)</h2>
-
-エネミーの動くスピードを変える
+### エネミーの動くスピードを変える
 
 1. **Project** > **Assets** > **OtherPrefabs** > **Charactors** をクリック
-1. スピードを変更したいエネミーをクリック
-1. **Inspector** > **Enemy Movement Controller** > **Speed** の値を変更する
-
----?image=assets/img/Scripting2.PNG&size=100% auto&position=bottom
-@title[スクリプトを触ってみる]
-
-@snap[north-west]
-<h2>@size[0.7em](スクリプトを触ってみる)</h2>
-
-<b>Assets</b> > <b>Scripts</b> > <b>GameManager</b> > <b>GameController.cs</b> をダブルクリックして<br>
-画像の通りに104行目に<b>Debug.Log()</b>を入れてみる
-@snapend
+2. スピードを変更したいエネミーをクリック
+3. **Inspector** > **Enemy Movement Controller** > **Speed** の値を変更
 
 ---
-@title[ゲームオブジェクトを作ってみる]
 
-<h2>@size[0.7em](MiniMapを作ってみる)</h2>
+### プレーヤーのHPを変える
+
+1. **Hierarchy** > **Player** をクリック
+2. **Inspector** > **Player Health Controller** > **Starting Health** の値を変更
+3. **Hierarchy** > **HUDCanvas** > **HealthUI** > **HealthSlider** をクリック
+4. **Slider** > **MaxValue** を変更した値に変更
+5. **Slider** > **Value** を最大値に変更
+
+---
+
+### エネミーの問題文を変える
+
+1. **Project** > **Assets** > **＿Resources** をクリックする
+2. **TypingText** をダブルクリックする
+3. 一行に一単語を入力する
+  - 半角英字（小文字）だけが使えます
+4. 保存する
+5. Unityに戻る
+6. **Project** > **Assets** > **＿Resources** をクリックする
+7. **Inspector** で新しいデータに書き換わっていることを確認する
+
+---
+### ゲームオブジェクトを作ってみる
 
 1. **Hierarchy** > **MiniMapCamera** をクリックして **Inspector** 内の一番上にあるチェックを外す
 1. **Hierarchy** > **Create** > **Camera** をクリック
 1. 名前を **MiniMap** に変更
-1. **Inspector**の全ての値を **MiniMapCamera** の通りに設定
+1. **Inspector** の全ての値を **MiniMapCamera** の通りに設定
 1. 全体を真上から移すカメラとして動いていることを確認
