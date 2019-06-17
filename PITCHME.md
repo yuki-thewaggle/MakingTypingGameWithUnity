@@ -167,7 +167,7 @@
 1. **Hierarchy** > **Floor** >　**NavMeshWalkableFloor** > **Add Component** をクリック
 2. **MeshRenderer** を検索してクリック
 3. **Window** > **AI** > **Navigation** をクリック
-4. **Bake** タブにある **Bake** ボタンをクリック
+4. **Bake** タブ > **Bake** ボタンをクリック
 5. **MeshRenderer** のチェックボックスを **チェックが外れた状態** にする
 
 （ナビメッシュとは、ゲームオブジェクトが動く経路を<br>
