@@ -164,8 +164,8 @@
 
 ### ナビメッシュを設定する
 
-1. **Hierarchy** > **Floor** > **NavMeshWalkableFloor** をクリック
-2. **MeshRenderer** のチェックボックスを **チェックがついた状態** にする
+1. **Hierarchy** > **Floor** >　**NavMeshWalkableFloor** > **Add Component** をクリック
+2. **MeshRenderer** を検索してクリック
 3. **Window** > **AI** > **Navigation** をクリック
 4. **Bake** タブにある **Bake** ボタンをクリックする
 5. **MeshRenderer** のチェックボックスを **チェックが外れた状態** にする
