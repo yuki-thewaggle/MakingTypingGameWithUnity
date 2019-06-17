@@ -122,7 +122,7 @@
 
 ### プレハブを実態化する
 
-1. **Assets** > **＿Prefabs** にある以下のものを **Hierarchy** にドラッグ&ドロップ
+1. **Assets** > **＿Prefabs** にある以下の **青いキューブのアイコン** を **Hierarchy** にドラッグ&ドロップ
   - BackgroundMusic
   - Floor
   - GameManager
