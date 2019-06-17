@@ -128,7 +128,6 @@
   - GameManager
   - HUDCanvas
   - MainCamera
-  - MiniMapCamera
   - Player
 
 ---?color=#3A8FB7
