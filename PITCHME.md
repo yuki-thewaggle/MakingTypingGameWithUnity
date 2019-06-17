@@ -243,7 +243,7 @@
 
 1. **Project** > **Assets** > **OtherPrefabs** > **Charactors** をクリック
 2. スピードを変更したいエネミー（**EnemyZomBear**、**EnemyZomBunny**、**EnemyHellephant**）をクリック
-3. **Inspector** > **EnemyHealth Controller** > **Sink Speed** の値を変更
+3. **Inspector** > **Enemy Movement Controller** > **Speed** の値を変更
 
 ---
 
