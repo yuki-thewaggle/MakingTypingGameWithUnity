@@ -167,7 +167,7 @@
 1. **Hierarchy** > **Floor** >　**NavMeshWalkableFloor** > **Add Component** をクリック
 2. **MeshRenderer** を検索してクリック
 3. **Window** > **AI** > **Navigation** をクリック
-4. **Bake** タブにある **Bake** ボタンをクリックする
+4. **Bake** タブにある **Bake** ボタンをクリック
 5. **MeshRenderer** のチェックボックスを **チェックが外れた状態** にする
 
 （ナビメッシュとは、ゲームオブジェクトが動く経路を<br>
@@ -254,7 +254,7 @@
 
 ### エネミーの問題文を変える
 
-1. **Project** > **Assets** > **＿Resources** をクリックする
+1. **Project** > **Assets** > **＿Resources** をクリック
 2. **TypingText** をダブルクリックする
 3. 一行に一単語を入力する
   - 半角英字（小文字）だけが使えます
