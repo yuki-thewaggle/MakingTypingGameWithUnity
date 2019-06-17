@@ -177,8 +177,8 @@
 
 ### MainCameraとDirectionalLightの削除
 
-1. **Hierarchy** > **MainCamera** を右クリック > **Delete**をクリック
-2. **Hierarchy** > **DirectionalLight** を右クリック > **Delete**をクリック
+1. **Hierarchy** > **黒い文字** の **MainCamera** を右クリック > **Delete**をクリック
+2. **Hierarchy** > **黒い文字** の **DirectionalLight** を右クリック > **Delete**をクリック
 
 （自動生成されたデフォルトのカメラとライトは<br>
 必要ないので削除する）
