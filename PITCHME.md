@@ -151,10 +151,11 @@
 
 ### レイヤーを設定する
 
-1. **Inspector** > **Layer** > **Add Layer** をクリック
-2. 空いている一番上の欄に **Floor** と記入
-3. **Hierarchy** > **Floor** > **MousePointingFloor** をクリック
-4. レイヤーを **Floor** に設定
+1. **Inspector** > **Layer** > **Floor** があることを確認
+2. （なければ）**Inspector** > **Layer** > **Add Layer** をクリック
+3. （なければ）空いている一番上の欄に **Floor** と記入
+4. **Hierarchy** > **Floor** > **MousePointingFloor** をクリック
+5. レイヤーを **Floor** に設定
     
 （レイヤーとはゲームオブジェクトのグループ分けをするもの）<br>
 （今回はマウスの位置を取得するために利用）
