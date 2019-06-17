@@ -211,10 +211,18 @@
 
 ### 問題なければ最後に
 
-1. **Hierarchy** > **黒い文字** の **DirectionalLight** を右クリック > **Delete**をクリック
-2. **Project** > **Assets** > **＿Prefabs** > **Lights** を実態化
+<!--1. **Hierarchy** > **黒い文字** の **DirectionalLight** を右クリック > **Delete**をクリック-->
+<!--2. **Project** > **Assets** > **＿Prefabs** > **Lights** を実態化-->
+1. **Hierarchy** > **DirectionalLight** > **Inspector** > **Intensity**の値を下げて薄暗くする
 3. **Project** > **Assets** > **＿Prefabs** > **Environment** を実態化
-4. **Window** > **Rendering** > **LightingSettings** > **Generate Lighting** ボタンをクリック
+<!--4. **Window** > **Rendering** > **LightingSettings** > **Generate Lighting** ボタンをクリック-->
+
+---
+
+### これで完成！
+
+おめでとう！
+
 
 ---?color=#3A8FB7
 
