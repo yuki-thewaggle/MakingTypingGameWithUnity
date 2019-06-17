@@ -31,7 +31,7 @@ theme-override : template/css/PITCHME.css
 # Footnote Setting
 # Doc: https://gitpitch.com/docs/settings/footnote
 #
-footnote : "つくるUOZUプロジェクト - ゲーム開発エンジンUnityとC#の基礎を学ぶ講座"
+footnote : "バンタンゲームアカデミー - Unity特別授業"
 
 #
 # Highlight (Code) Setting
@@ -57,8 +57,8 @@ transition : none
 # Twitter Card Settings
 # Doc: https://gitpitch.com/docs/settings/twitter-card
 #
-# title : "つくるUOZUプロジェクト - ゲーム開発エンジンUnityとC#の基礎を学ぶ講座"
-# description : "つくるUOZUプロジェクト - ゲーム開発エンジンUnityとC#の基礎を学ぶ講座"
+# title : "バンタンゲームアカデミー - Unity特別授業"
+# description : "バンタンゲームアカデミー - Unity特別授業"
 # thumbnail : template/img/thumbnail.png
 
 # google Analitics
