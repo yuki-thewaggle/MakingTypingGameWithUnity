@@ -127,7 +127,6 @@
   - Floor
   - GameManager
   - HUDCanvas
-  - Lights
   - MainCamera
   - Player
 
@@ -176,12 +175,11 @@
 
 ---
 
-### MainCameraとDirectionalLightの削除
+### デフォルトのMainCameraを削除
 
 1. **Hierarchy** > **黒い文字** の **MainCamera** を右クリック > **Delete**をクリック
-2. **Hierarchy** > **黒い文字** の **DirectionalLight** を右クリック > **Delete**をクリック
 
-（自動生成されたデフォルトのカメラとライトは<br>
+（自動生成されたデフォルトのカメラは<br>
 必要ないので削除する）
 
 ---
@@ -213,12 +211,10 @@
 
 ### 問題なければ最後に
 
-1. **Project** > **Assets** > **＿Prefabs** > **Lights** を実態化
-2. **Project** > **Assets** > **＿Prefabs** > **Environment** を実態化
-
-<!--1. **Window** > **Rendering** > **Lighting Settings**をクリックする-->
-<!--  - **Auto Generating** をクリックしてチェックを外す-->
-<!--  - **Generate Lighting** をクリックする-->
+1. **Hierarchy** > **黒い文字** の **DirectionalLight** を右クリック > **Delete**をクリック
+2. **Project** > **Assets** > **＿Prefabs** > **Lights** を実態化
+3. **Project** > **Assets** > **＿Prefabs** > **Environment** を実態化
+4. **Window** > **Rendering** > **LightingSettings** > **Generate Lighting** ボタンをクリック
 
 ---?color=#3A8FB7
 
