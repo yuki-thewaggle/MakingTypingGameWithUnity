@@ -127,6 +127,7 @@
   - Floor
   - GameManager
   - HUDCanvas
+  - Lights
   - MainCamera
   - Player
 
