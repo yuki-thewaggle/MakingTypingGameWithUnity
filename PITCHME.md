@@ -267,12 +267,3 @@
 5. Unityに戻る
 6. **Project** > **Assets** > **＿Resources** をクリックする
 7. **Inspector** で新しいデータに書き換わっていることを確認する
-
----
-### ゲームオブジェクトを作ってみる
-
-1. **Hierarchy** > **MiniMapCamera** をクリックして **Inspector** 内の一番上にあるチェックを外す
-1. **Hierarchy** > **Create** > **Camera** をクリック
-1. 名前を **MiniMap** に変更
-1. **Inspector** の全ての値を **MiniMapCamera** の通りに設定
-1. 全体を真上から移すカメラとして動いていることを確認
